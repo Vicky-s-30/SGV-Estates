@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="SGV stylesheet.css">
+     <!--box icon css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="SGV.html" class="logo" title="Home"><img src="logo without bg.png"></a>
+
+            <a href="login.html" class="button">Log In</a>
+        </div>
+    </header>
+<!--sign up-->
+    <div class="login container">
+        <div class="login-container">
+            
+            <h3 class="wh2">Welcome , Let's get started</h2>
+            
+            <!--login form-->
+            <form action="" id="form">
+
+                <div class="input-group">
+                    <span>Username</span>
+                    <input type="text" name="username" id="username" placeholder="enter your full name" >
+                    <div class="error"></div>
+                    </div>
+
+                <div class="input-group">
+                <span>Enter your email address</span>
+                <input type="email" name="email" id="email" placeholder="yourmail@gmail.com" >
+                <div class="error"></div>
+                </div>
+
+                <div class="input-group">
+                <span>Phone</span>
+                <input type="tel" name="phonenumber" id="phonenumber" placeholder="Enter your number" >
+                <div class="error"></div>
+                </div>
+
+                <div class="input-group">
+                <span>Enter your password</span>
+                <input type="password" name="password" id="password" placeholder="At least 8 characters" >
+                <i id="shw" onclick="showpassword()" class='bx bx-hide'></i>
+                <div class="error"></div>
+                </div>
+                
+                <div class="input-group">
+                <span>Re enter password</span>
+                <input type="password" name="cpassword" id="cpassword" placeholder="same as above" >
+                <div class="error"></div>
+                </div>
+                
+                <input type="submit" class="button" value="Sing Up" >
+
+                <a href="login.html">Already have an account?</a>
+                
+                
+            </form>
+            <a href="login.html" class="button">Log In</a>
+        </div>
+        <!--login img-->
+        <div class="login-image">
+            <img src="welcome.jpg" alt="network error">
+        </div>
+    </div>
+    
+<!--footer-->
+<section class="footer">
+    <div class="footer-container container">
+        <h2>R.Estate</h2>
+        <div class="footer-box">
+            <h3>Quick Links</h3>
+            <a href="#">Agency</a>
+            <a href="#">Buildings</a>
+            <a href="#">Rates</a>
+        </div>
+        <div class="footer-box">
+            <h3>Locations</h3>
+            <a href="#">Chennai</a>
+            <a href="#">Banglore</a>
+            <a href="#">Mumbai</a>
+        </div>
+        <div class="footer-box">
+            <h3>Contacts</h3>
+            <a href="#">+91 9840392329</a>
+            <a href="#">vickyvictor3010@gmail.com</a>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!--copyright-->
+<div class="copyright">
+    <p>&copy;SGV Estate All Right Reserved</p>
+</div>
+<script src="SVG JS.js"></script>
+
+</body>
+</html>

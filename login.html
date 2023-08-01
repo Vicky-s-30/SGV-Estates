@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LogIn</title>
+    <link rel="stylesheet" href="SGV stylesheet.css" />
+    <!--box icon css-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <script src="SVG JS.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="nav container">
+        <a href="SGV.html" class="logo" title="Home"
+          ><img src="logo without bg.png"
+        /></a>
+
+        <a href="sign-up.html" class="button">Sign Up</a>
+      </div>
+    </header>
+
+    <div class="login container">
+      <div class="login-container">
+        <h2>Login to continue</h2>
+        <p>
+          Log in with your data that you enterd<br />during your registration
+        </p>
+        <!--login form-->
+        <form action="" id="form">
+          <div class="input-group">
+            <span>Enter your email address</span>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="yourmail@gmail.com"
+              required
+            />
+            <div class="error"></div>
+          </div>
+
+          <div class="input-group">
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="At least 8 characters"
+              required
+            />
+            <i id="shw" onclick="showpassword()" class="bx bx-hide"></i>
+            <div class="error"></div>
+          </div>
+
+          <input type="submit" value="Log In" class="button" />
+          <a href="#">Forget Password?</a>
+        </form>
+        <a href="sign-up.html" class="button">Sing up now</a>
+      </div>
+      <!--login img-->
+      <div class="login-image">
+        <img src="welcome2.jpg" alt="network error" />
+      </div>
+    </div>
+
+    <!--footer-->
+    <section class="footer">
+      <div class="footer-container container">
+        <h2>R.Estate</h2>
+        <div class="footer-box">
+          <h3>Quick Links</h3>
+          <a href="#">Agency</a>
+          <a href="#">Buildings</a>
+          <a href="#">Rates</a>
+        </div>
+        <div class="footer-box">
+          <h3>Locations</h3>
+          <a href="#">Chennai</a>
+          <a href="#">Banglore</a>
+          <a href="#">Mumbai</a>
+        </div>
+        <div class="footer-box">
+          <h3>Contacts</h3>
+          <a href="#">+91 9840392329</a>
+          <a href="#">vickyvictor3010@gmail.com</a>
+          <div class="social">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--copyright-->
+    <div class="copyright">
+      <p>&copy;SGV Estate All Right Reserved</p>
+    </div>
+  </body>
+</html>
